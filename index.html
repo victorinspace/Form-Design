@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Design</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		<section>
+			<label for="fname">First Name</label>
+			<input type="text" name="fname">
+			<label for="lname">Last Name</label>
+			<input type="text" name="lname">
+			<label for="email">Email Address</label>
+			<input type="email" name="email">
+			<label for="country">Country</label>
+			<select name="country">
+				<option value="" hidden>Choose a country...</option>
+				<option value="United States of America">United States of America</option>
+				<option value="Korea">Korea</option>
+				<option value="Iran">Iran</option>
+				<option value="Israel">Israel</option>
+				<option value="Mexico" >Mexico</option>
+			</select>
+			<label for="biography">Biography</label>
+			<textarea name="biography"></textarea>
+		</section>
+		
+		<section>
+			<label for="tel">Phone Number</label>
+			<input type="tel" name="phone">
+			
+			<textarea name="affiliations"></textarea>
+			<select name="occupation">
+				<option value="" hidden>Choose an occupation...</option>
+				<option value="Firefighter">Firefighter</option>
+				<option value="Thief">Thief</option>
+				<option value="Beggar">Beggar</option>
+				<option value="Lepper">Lepper</option>
+				<option value="Entrepreneur">Entrepreneur</option>
+			</select>
+			<input type="text" name="cat-name">
+			<input type="text" name="fav-gadget">
+		</section>
+
+		<section>
+			<select name="talent">
+				<option value="" hidden>Choose a talent...</option>
+				<option value="horseback">Horseback Riding</option>
+				<option value="dungeon">Dungeon Crawling</option>
+				<option value="knitting">Knitting</option>
+				<option value="long-jump">Long Jump</option>
+				<option value="espionage">Espionage</option>
+			</select>
+			<label for="fav-drink">Favorite Drink</label>
+			<input type="text" name="fav-drink" placeholder="Sarsaparilla">
+			<label for="power">Special Power</label>
+			<input type="text" name="power" placeholder="Not Smiling. Ever.">
+			<label for="weapon">Weapon of Choice</label>
+			<input type="text" name="weapon" placeholder="Mr. Meeseeks Box">
+			<label for="comments">Comments</label>
+			<textarea name="comments"></textarea>
+		</section>
+	</form>
+</body>
+</html>
