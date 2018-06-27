@@ -2,30 +2,44 @@ body {
 	background: #5aa2d5;
 	text-transform: uppercase;
 	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
 	color: #fff;
 	padding: 20px 20px 0;
+	display: flex;
+	justify-content: center;
 }
 
 form {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 section {
 	flex-direction: column;
 	margin: 0 20px 0;
+	width: 400px;
+	box-sizing: border-box;
 }
 
-.1 {
-	flex: 1;
+::placeholder {
+	color: #486c85;
+	font-style: italic;
 }
 
-.1 {
-	flex: 1;
+input, select, textarea {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	border: 2px solid #fff;
+	background: #5aa2d5;
+	padding: 12px 10px;
 }
 
-.3 {
-	flex: 1;
+input:focus, select:focus, textarea:focus {
+	outline: 2px solid #2b6898;
+	font-size: 16px;
+	color: #fff;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 
