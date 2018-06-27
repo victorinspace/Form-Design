@@ -39,7 +39,7 @@ input, select, textarea {
 	border: 2px solid #fff;
 	background: #5aa2d5;
 	padding: 12px 12px;
-	margin: 5px 0 15px 0;
+	margin: 5px 0 30px 0;
 }
 
 input:focus, select:focus, textarea:focus {
