@@ -3,15 +3,17 @@ body {
 	text-transform: uppercase;
 	font-family: Tahoma, Geneva, sans-serif;
 	color: #fff;
-	padding: 20px;
+	padding: 20px 20px 0;
 }
 
 form {
 	display: flex;
+	justify-content: center;
 }
 
 section {
 	flex-direction: column;
+	margin: 0 20px 0;
 }
 
 .1 {
