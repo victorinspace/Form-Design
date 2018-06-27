@@ -7,6 +7,11 @@ body {
 	padding: 20px 20px 0;
 	display: flex;
 	justify-content: center;
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
 }
 
 form {
@@ -29,10 +34,12 @@ section {
 input, select, textarea {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 16px;
+	color: #fff;
 	width: 100%;
 	border: 2px solid #fff;
 	background: #5aa2d5;
-	padding: 12px 10px;
+	padding: 12px 12px;
+	margin: 5px 0 15px 0;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -41,7 +48,3 @@ input:focus, select:focus, textarea:focus {
 	color: #fff;
 	font-family: Tahoma, Geneva, sans-serif;
 }
-
-
-
-/* color for focused box: #2b6898 */
