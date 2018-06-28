@@ -7,15 +7,15 @@
 </head>
 <body>
 	<form>
-		<section class="1">
+		<section>
 			<label for="fname">First Name</label><br>
-			<input type="text" name="fname" placeholder="John"><br>
+			<input id="fname" type="text" name="fname" placeholder="John"><br>
 			<label for="lname">Last Name</label><br>
-			<input type="text" name="lname" placeholder="Connor"><br>
+			<input id="lname" type="text" name="lname" placeholder="Connor"><br>
 			<label for="email">Email Address</label><br>
-			<input type="email" name="email" placeholder="yourhonor@judge.com"><br>
+			<input id="email" type="email" name="email" placeholder="yourhonor@judge.com"><br>
 			<label for="country">Country</label><br>
-			<select name="country">
+			<select id="country" name="country">
 				<option value="" hidden>Choose a country...</option>
 				<option value="United States of America">United States of America</option>
 				<option value="Korea">Korea</option>
@@ -24,16 +24,16 @@
 				<option value="Mexico" >Mexico</option>
 			</select><br>
 			<label for="biography">Biography</label><br>
-			<textarea name="biography"></textarea><br>
+			<textarea id="biography" name="biography"></textarea><br>
 		</section>
 		
-		<section class="2">
+		<section>
 			<label for="tel">Phone Number</label><br>
-			<input type="tel" name="phone" placeholder="+555-555-5555"><br>
+			<input id="phone" type="tel" name="phone" placeholder="+555-555-5555"><br>
 			<label for="affiliations">Affiliations</label><br>
-			<textarea name="affiliations"></textarea><br>
+			<textarea id="affiliations" name="affiliations"></textarea><br>
 			<label for="occupation">Occupation</label><br>
-			<select name="occupation">
+			<select id="occupation" name="occupation">
 				<option value="" hidden>Choose an occupation...</option>
 				<option value="Firefighter">Firefighter</option>
 				<option value="Thief">Thief</option>
@@ -42,14 +42,14 @@
 				<option value="Entrepreneur">Entrepreneur</option>
 			</select><br>
 			<label for="cat-name">Cat's Name</label><br>
-			<input type="text" name="cat-name" placeholder="Meowth"><br>
+			<input id="cat-name" type="text" name="cat-name" placeholder="Meowth"><br>
 			<label for="fav-gadget">Favorite Gadget</label><br>
-			<input type="text" name="fav-gadget" placeholder="Sonic Screwdriver"><br>
+			<input id="fav-gadget" type="text" name="fav-gadget" placeholder="Sonic Screwdriver"><br>
 		</section>
 
-		<section class="3">
+		<section>
 			<label for="talent">Type of Talent</label><br>
-			<select name="talent">
+			<select id="talent" name="talent">
 				<option value="" hidden>Choose a talent...</option>
 				<option value="horseback">Horseback Riding</option>
 				<option value="dungeon">Dungeon Crawling</option>
@@ -58,13 +58,13 @@
 				<option value="espionage">Espionage</option>
 			</select><br>
 			<label for="fav-drink">Favorite Drink</label><br>
-			<input type="text" name="fav-drink" placeholder="Sarsaparilla"><br>
+			<input id="fav-drink" type="text" name="fav-drink" placeholder="Sarsaparilla"><br>
 			<label for="power">Special Power</label><br>
-			<input type="text" name="power" placeholder="Not Smiling. Ever."><br>
-			<label for="weapon">Weapon of Choice</label><br>
+			<input id="power" type="text" name="power" placeholder="Not Smiling. Ever."><br>
+			<label id="weapon" for="weapon">Weapon of Choice</label><br>
 			<input type="text" name="weapon" placeholder="Mr. Meeseeks Box"><br>
 			<label for="comments">Comments</label><br>
-			<textarea name="comments"></textarea>
+			<textarea id="comments" name="comments"></textarea>
 		</section>
 	</form>
 </body>
