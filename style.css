@@ -1,8 +1,9 @@
 body {
 	background: #5aa2d5;
 	text-transform: uppercase;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Roboto', Verdana, Tahoma, Geneva, sans-serif;
 	font-size: 16px;
+  letter-spacing: 1px;
 	color: #fff;
 	padding: 20px 20px 0;
 	display: flex;
